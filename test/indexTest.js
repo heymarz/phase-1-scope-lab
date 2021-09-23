@@ -33,7 +33,7 @@ describe('Fix the Scope', function() {
   });
 
   describe('changeLeastFavoriteCustomer()', function() {
-    it('unsuccessfully tries to reassign the least favorite customer', function() {
+    it('unsuccessfulCuly tries to reassign the least favorite customer', function() {
       expect(changeLeastFavoriteCustomer).to.throw('Assignment to constant variable.');
     });
   });
